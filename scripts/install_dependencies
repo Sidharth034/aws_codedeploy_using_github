@@ -1,3 +1,4 @@
 #!/bin/bash
 apt-get install -y apache2
-
+sudo cd /var/www/html
+sudo rm -rf index.html
